@@ -86,7 +86,8 @@ All of the codes were written in the environment of Windows 10.
 # Dataset
 
 #### https://www.kaggle.com/anaselmasry/ct-images-for-covid-normal-pneumonia-mendeley
-
+#### https://drive.google.com/drive/folders/1LC_l4sVvoUgg2MsZ8veoeB8OY6v_vNiq?usp=sharing 
+>(X-ray Dataset that is merged from public sources from: To be updated...)
 # Contribution
 -------------------
 ### Daekyung Kim
