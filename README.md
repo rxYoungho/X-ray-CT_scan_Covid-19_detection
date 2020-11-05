@@ -61,6 +61,18 @@ weighted avg       0.65      0.67      0.66     12979
 ```
   In order to improve the accuracy of the current model, more dataset will be trained to the model, and when YOLO can detect the COVID-19 in a high accuracy, the model will be rebuilt as a multiple classification (Normal, Pneumonia, COVID-19) model soon.
 
+# Data pre-processing
+
+Before Segmentation             |  After Segmentation
+:-------------------------:|:-------------------------:
+![Image of the before](https://github.com/rxYoungho/X-ray-CT_scan_Covid-19_detection/blob/master/img/before.png)  |  ![Image of the after](https://github.com/rxYoungho/X-ray-CT_scan_Covid-19_detection/blob/master/img/after.png)
+
+
+# Detection Result (CT)
+![Image of the model](https://github.com/rxYoungho/X-ray-CT_scan_Covid-19_detection/blob/master/img/normal_test.png)
+
+  
+
 # Operating System
 ```
 All of the codes were written in the environment of Windows 10.
