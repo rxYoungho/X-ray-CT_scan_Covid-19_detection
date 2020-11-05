@@ -71,6 +71,10 @@ All of the codes were written in the environment of Windows 10.
 #### Any users can submit their bug report in "Github Issues" of our repository. 
 #### Check out the recent issues from : https://github.com/rxYoungho/X-ray-CT_scan_Covid-19_detection/issues
 
+# Dataset
+
+#### https://www.kaggle.com/anaselmasry/ct-images-for-covid-normal-pneumonia-mendeley
+
 # Contribution
 -------------------
 ### Daekyung Kim
