@@ -1,4 +1,4 @@
-### Please Read before you run the code
+# Please Read before you run the code
 
 Please Download the CT_Scans_detection folder as it is, and unzip it.
 
