@@ -3,7 +3,7 @@ import numpy as np
 import time
 
 # Load Yolo
-net = cv2.dnn.readNet("obj_detection/covid_4000.weights", "obj_detection/covid_weight.cfg")
+net = cv2.dnn.readNet("obj_detection/covid4000.weights", "obj_detection/covid_weight.cfg")
 classes = []
 with open("obj_detection/covid.names", "r") as f:
     classes = [line.strip() for line in f.readlines()]
