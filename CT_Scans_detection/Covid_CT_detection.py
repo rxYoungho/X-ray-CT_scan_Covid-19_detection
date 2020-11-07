@@ -3,9 +3,9 @@ import numpy as np
 import time
 
 # Load Yolo
-net = cv2.dnn.readNet("obj_detection/covid4000.weights", "obj_detection/covid_weight.cfg")
+net = cv2.dnn.readNet("obj_detection/yolov3_custom_final.weights", "obj_detection/yolov3_custom.cfg")
 classes = []
-with open("obj_detection/covid.names", "r") as f:
+with open("obj_detection/obj.names", "r") as f:
     classes = [line.strip() for line in f.readlines()]
 layer_names = net.getLayerNames()
 output_layers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
@@ -24,6 +24,8 @@ outs = net.forward(output_layers)
 # Showing informations on the screen
 class_ids = []
 confidences = []
+print(confidences)
+print(class_ids)
 boxes = []
 for out in outs:
     for detection in out:
