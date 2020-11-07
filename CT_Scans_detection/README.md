@@ -8,7 +8,7 @@ You must download appropriate weight to run the machine.
 
 I will provide the weight I have trained for this model in the following link(The file exceeds 25MB).
 
-https://drive.google.com/file/d/1ONS8D5Rb6Ixo7Dlo-nReNR_JeZmcQO3w/view?usp=sharing
+https://drive.google.com/file/d/1-BuT68fW_QUkjDGRga4TYnnFEDlOti-Z/view?usp=sharing
 
 After you download the weight file, make sure you put it in the "obj_detection" folder where the names and cfg files are before you run the code. 
 
