@@ -91,7 +91,7 @@ All of the codes were written in the environment of Windows 10.
 
 #### https://www.kaggle.com/anaselmasry/ct-images-for-covid-normal-pneumonia-mendeley
 #### https://drive.google.com/drive/folders/1LC_l4sVvoUgg2MsZ8veoeB8OY6v_vNiq?usp=sharing 
->(X-ray Dataset that is merged from public sources from: To be updated...)
+#### X-ray Dataset that is merged from public sources from: COVID19 Radiography Database, Figure1 COVID Chest X-ray Dataset, COVID19 Detection X-ray Dataset, Detecting COVID19 in X-ray Images Dataset, COVIDX Dataset
 # Contribution
 -------------------
 ### Daekyung Kim
