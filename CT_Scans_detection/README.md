@@ -1,5 +1,7 @@
 # Please Read before you run the code
 
+DATASET FOR THIS PARTICULAR MODEL IS NOT PRE-PROCESSED WITH THE SEGMENTATION METHOD.
+
 Please Download the CT_Scans_detection folder as it is, and unzip it.
 
 When you unzip the file, open "Covid(CT)_detection.py".
