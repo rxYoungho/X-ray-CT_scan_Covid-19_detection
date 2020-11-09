@@ -1,6 +1,6 @@
 # Please Read before you run the code
 
-DATASET FOR THIS PARTICULAR MODEL IS NOT PRE-PROCESSED WITH THE SEGMENTATION METHOD.
+#### (Dataset for this particular model is not pre-processes with the segmentation method)
 
 Please Download the CT_Scans_detection folder as it is, and unzip it.
 
