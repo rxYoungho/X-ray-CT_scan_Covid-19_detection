@@ -5,7 +5,7 @@
 
 
 #### Dataset
-> Our dataset cotains 6465 Pneumonia, 4563 Normal, 478 COVID19 Xray images from public sources: (To be Updated).
+> Our dataset cotains 6465 Pneumonia, 4563 Normal, 478 COVID19 Xray images from public sources: COVID19 Radiography Database, Figure1 COVID Chest X-ray Dataset, COVID19 Detection X-ray Dataset, Detecting COVID19 in X-ray Images Dataset, COVIDX Dataset.
 > https://drive.google.com/drive/folders/1LC_l4sVvoUgg2MsZ8veoeB8OY6v_vNiq?usp=sharing
 
 #### Model
