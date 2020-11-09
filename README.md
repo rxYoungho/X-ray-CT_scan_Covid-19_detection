@@ -16,6 +16,10 @@
 
 ![Image of the model](https://github.com/rxYoungho/X-ray-CT_scan_Covid-19_detection/blob/master/img/resnet.png)
 
+  Additionally, the following is a visualization of the model made through Tensorflow:
+
+![Tri-Resnet model](https://github.com/rxYoungho/X-ray-CT_scan_Covid-19_detection/blob/master/img/tri-resnet.png)
+
 # COVID-19 Detection model (CT Scans)
 
   By using YOLO: real time object detection tool, the model has gained new knowledge of two different data: Normal chest CT scan and COVID-19 chest CT scan. In order to verify the accuracy of YOLO darknet (one of the pre-trained neural networks) when used in a medical area, it was firstly trained as a binary classification model. The created model gets one input of CT scan image from the end-user, and it provides the confidence, accuracy, and the class that the input is involved in. 
