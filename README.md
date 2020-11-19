@@ -26,6 +26,12 @@
   
   When tested using cross validation, from 100 images out of 1000 images, the F-1 score was about 95% when detecting the Normal chest CT scan imag	es. The F-1 score of COVID-19 chest CT scan images was about 99%. Both had high accuracy of detecting the features since the segmentation method was used before they were trained (pre-processing), and the method also was used in the input data.
 
+  Two different workflows exist in CT scan detection model.
+ 
+ ![One model workflow](https://github.com/rxYoungho/X-ray-CT_scan_Covid-19_detection/blob/master/img/CT_one_model.png)
+ 
+ ![One model workflow](https://github.com/rxYoungho/X-ray-CT_scan_Covid-19_detection/blob/master/img/CT_two_models.png)
+
 ```
 @COVID-19 Detection
               precision      recall      f1-score   support
