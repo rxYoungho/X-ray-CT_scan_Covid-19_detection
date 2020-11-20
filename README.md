@@ -18,12 +18,17 @@
 
 # COVID-19 Detection model (CT Scans)
 
-  By using YOLO: real time object detection tool, the model has gained new knowledge of two different data: Normal chest CT scan and COVID-19 chest CT scan. In order to verify the accuracy of YOLO darknet (one of the pre-trained neural networks) when used in a medical area, it was firstly trained as a binary classification model. The created model gets one input of CT scan image from the end-user, and it provides the confidence, accuracy, and the class that the input is involved in. 
+  Two different workflows exist in CT scan detection model.
+ 
+ ![One model workflow](https://github.com/rxYoungho/X-ray-CT_scan_Covid-19_detection/blob/master/img/CT_one_model.png)
+ 
+ ![Two models workflow](https://github.com/rxYoungho/X-ray-CT_scan_Covid-19_detection/blob/master/img/CT_two_model.PNG)
+ 
+By using YOLO: real time object detection tool, the model has gained new knowledge of three different data: Normal chest CT scan, COVID-19 chest CT scan, and pneumonia chest CT scan. ~~In order to verify the accuracy of YOLO darknet (one of the pre-trained neural networks) when used in a medical area, it was firstly trained as a binary classification model.~~ (Classifying three different classes is now available, so feel free to use the new model) The created model gets one input of CT scan image from the end-user, and it provides the confidence, accuracy, and the class that the input is involved in. 
   
   When tested using cross validation, from 100 images out of 1000 images, the F-1 score was about 95% when detecting the Normal chest CT scan imag	es. The F-1 score of COVID-19 chest CT scan images was about 99%. Both had high accuracy of detecting the features since the segmentation method was used before they were trained (pre-processing), and the method also was used in the input data.
-
 ```
-@COVID-19 Detection
+@COVID-19 Detection for binary classification model
               precision      recall      f1-score   support
 
            0       0.00        0.00          0.00         0
@@ -33,7 +38,7 @@
    macro avg       0.50        0.45          0.48        97
 weighted avg       1.00        0.91          0.95        97
 
-@Normal Detection
+@Normal Detection for binary classification model
               precision    recall  f1-score   support
 
           0       1.00      0.98      0.99        99
@@ -48,7 +53,7 @@ weighted avg       1.00      0.98     0.99        99
   The model was trained with 100 representative chest CT scan images for each Normal and COVID-19 class. The model, however, showed both low accuracy and F1-score when faced with unseen data. Below is the result of 10,000 unseen data testing.
 
 ```
-Unseen Data [F1-Score of both Normal and COVID-19 class]
+Unseen Data [F1-Score of both Normal and COVID-19 class] 
               precision    recall  f1-score   support
 
            0       0.75      0.80      0.77      9305
