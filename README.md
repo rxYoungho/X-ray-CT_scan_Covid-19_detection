@@ -70,6 +70,22 @@ weighted avg       0.65      0.67      0.66     12979
 ```
   In order to improve the accuracy of the current model, more dataset will be trained to the model, and when YOLO can detect the COVID-19 in a high accuracy, the model will be rebuilt as a multiple classification (Normal, Pneumonia, COVID-19) model soon.
 
+```
+Unseen Data [F1-score of only COVID-19 with Three classification model]
+F-1 Score of three classification model [Test data = COVID-19]
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         0
+           1       1.00      0.96      0.98      1666
+
+    accuracy                           0.96      1666
+   macro avg       0.50      0.48      0.49      1666
+weighted avg       1.00      0.96      0.98      1666
+
+[[   0    0]
+ [  69 1597]]
+```
+
 # Data pre-processing
 
 Before Segmentation             |  After Segmentation
