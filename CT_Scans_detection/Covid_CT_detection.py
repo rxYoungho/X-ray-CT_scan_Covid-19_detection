@@ -1,9 +1,10 @@
 import cv2
 import numpy as np
 import time
+import matplotlib.pyplot as plt
 
 # Load Yolo
-net = cv2.dnn.readNet("obj_detection/covid_4000.weights", "obj_detection/covid_weight.cfg")
+net = cv2.dnn.readNet("obj_detection/yolov3_custom_final.weights", "obj_detection/covid.cfg")
 classes = []
 with open("obj_detection/covid.names", "r") as f:
     classes = [line.strip() for line in f.readlines()]
@@ -12,7 +13,7 @@ output_layers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
 colors = np.random.uniform(0, 255, size=(len(classes), 3))
 font = cv2.FONT_HERSHEY_PLAIN
 
-frame = cv2.imread('obj_detection/1.jpg')
+frame = cv2.imread('obj_detection/39.png')
 height, width, channels = frame.shape
 
 # Detecting objects
